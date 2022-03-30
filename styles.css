@@ -1,7 +1,17 @@
 
+
+
 .my-title{
-    font-family: 'Ubuntu Mono' !important;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Ubuntu Mono' !important; */
 }
+
+.info-title{
+    font-family: 'Playfair Display', serif;
+}
+
+.info-body{
+    font-family: 'Roboto', sans-serif;}
 
 .my-image{
     
