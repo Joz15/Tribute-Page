@@ -1,54 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tribute Page</title>
-    
+
     <!-- Font links start here -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Playfair+Display:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font links end here -->
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
 
-</head>
+  <body>
+    <div class="full-page">
+      <header>
+        <h1 class="my-title" id="title">St Francis of Assisi</h1>
+      </header>
 
+      <figure class="my-image" id="img-div">
+        <img
+          
+          id="image"
+          src="/Assets/St Francis Main.jpeg"
+          alt="St Francis Tribute Page"
+        />
+        <figcaption id="image-caption">
+          A contemporary representation of St Fracis of Assisi by
+          <em>hilltophausfrau</em>
+        </figcaption>
+      </figure>
 
-    <body>
-        <div class="full-page">
+      <div id="main">
+        <main id="tribute-info">
+          <h2 class="info-title">About St Francis</h2>
 
-        <header>
-            <h1 class="my-title" id="title">St Francis of Assisi</h1>
-        </header>
-    
-        <figure id="img-div"> 
-            
-            <img class="my-image" id="image" src="/Assets/St Francis Main.jpeg" alt="St Francis Tribute Page">
-            <figcaption id="image-caption">A contemporary representation of St Fracis of Assisi by <em>hilltophausfrau</em></figcaption>
-        
-        </figure>
+          <p class="info-body">
+            Francis of Assisi, was an Italian Catholic friar, deacon, and
+            mystic. He founded the men's Order of Friars Minor, the women's
+            Order of St. Clare, the Third Order of St. Francis and the Custody
+            of the Holy Land. Francis is one of the most venerated religious
+            figures in Christianity
+          </p>
 
-    <div id="main">
-        
-        <main id="tribute-info"></main>
-        
-            <h2 class="info-title">About St Francis</h2>
-            
-            <p class="info-body" >
-                Francis of Assisi, was an Italian Catholic friar, deacon, and mystic. He founded the men's Order of Friars Minor, the women's Order of St. Clare, the Third Order of St. Francis and the Custody of the Holy Land. Francis is one of the most venerated religious figures in Christianity
-            </p>
-            
-            <p class="info-body" id="tribute-link">Read more about St Francis on <a target="blank" href="https://en.wikipedia.org/wiki/Francis_of_Assisi"> Wikipedia</a></p>
-        
+          <p class="info-body" id="tribute-link">
+            Read more about St Francis on
+            <a
+              target="blank"
+              href="https://en.wikipedia.org/wiki/Francis_of_Assisi"
+            >
+              Wikipedia</a
+            >
+          </p>
         </main>
-
+      </div>
     </div>
-        
-
-
-</div>    
-</body>
-
+  </body>
 </html>
